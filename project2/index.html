@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CertifyChain</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"></script>
+</head>
+<body>
+    <h1>Generate Certificate</h1>
+    <form id="certificateForm">
+        <input type="text" id="certificateId" placeholder="Certificate ID" required />
+        <input type="text" id="uid" placeholder="UID" required />
+        <input type="text" id="candidateName" placeholder="Candidate Name" required />
+        <input type="text" id="courseName" placeholder="Course Name" required />
+        <input type="text" id="orgName" placeholder="Organization Name" required />
+        <input type="text" id="ipfsHash" placeholder="IPFS Hash" required />
+        <button type="submit">Generate Certificate</button>
+    </form>
+    <p id="result"></p>
+    <script src="app.js"></script>
+</body>
+</html>
